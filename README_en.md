@@ -1,96 +1,92 @@
-NetGuard Pro
+# NetGuard Pro
 
-🚀 Overview
+## 🚀 Overview
 NetGuard Pro is an advanced solution for corporate network monitoring and protection. It delivers high performance and ease of use, serving both new users and specialized technical teams.
 
 This document guides:
 
-New Users: simple and clear instructions for installation and quick use of core features.
+- New Users: simple and clear instructions for installation and quick use of core features.
 
-Developers: technical details about the project structure and contribution guidelines.
+- Developers: technical details about the project structure and contribution guidelines.
 
-Contributors: directions on how to collaborate effectively, following coding standards and submission processes.
+- Contributors: directions on how to collaborate effectively, following coding standards and submission processes.
 
-🎯 Key Features
+## 🎯 Key Features
 
-Real‑time monitoring of traffic and critical events.
+- Real‑time monitoring of traffic and critical events.
 
-Smart, configurable alerts for incidents.
+- Smart, configurable alerts for incidents.
 
-Interactive, customizable dashboard.
+- Interactive, customizable dashboard.
 
-Scalability for infrastructures of all sizes.
+- Scalability for infrastructures of all sizes.
 
-Integration with ticketing systems, SIEM, and automation tools.
+- Integration with ticketing systems, SIEM, and automation tools.
 
-⚙️ Quick Installation (New Users)
+## ⚙️ Quick Installation (New Users)
 
-Clone the repository:
+- Clone the repository:
+<pre>git clone https://github.com/company/netguard-pro.git</pre>
 
-git clone https://github.com/company/netguard-pro.git
+- Install dependencies:
+<pre>npm install</pre>
 
-Install dependencies:
+- Configure the .env file with your credentials and network parameters.
 
-npm install
+- Start the system:
+<pre>npm run start</pre>
 
-Configure the .env file with your credentials and network parameters.
+- Within minutes, NetGuard Pro will be active and ready to monitor your network.
 
-Start the system:
+## 🛠️ Technical Structure (Developers)
 
-npm run start
+- Modular architecture: each component is independent and extensible.
 
-Within minutes, NetGuard Pro will be active and ready to monitor your network.
+- Documented APIs: REST endpoints for system integration.
 
-🛠️ Technical Structure (Developers)
+- Automated testing: ensures quality and reliability.
 
-Modular architecture: each component is independent and extensible.
+- Coding guidelines: follow ESLint standards and maintain consistency.
 
-Documented APIs: REST endpoints for system integration.
+## 🤝 Contribution (Contributors)
 
-Automated testing: ensures quality and reliability.
+- Fork the repository.
 
-Coding guidelines: follow ESLint standards and maintain consistency.
+- Create a branch for your feature or fix:
+<pre>git checkout -b my-feature</pre>
 
-🤝 Contribution (Contributors)
+- Document your changes and submit a pull request.
 
-Fork the repository.
+- All contributions undergo code review and automated testing to ensure smooth integration.
 
-Create a branch for your feature or fix:
+## 📊 Real‑World Use Case
 
-git checkout -b my-feature
+- A mid‑sized company with 200 employees installs NetGuard Pro to monitor corporate network traffic.
 
-Document your changes and submit a pull request.
+- The system detects suspicious access spikes outside business hours.
 
-All contributions undergo code review and automated testing to ensure smooth integration.
+- The IT team receives automatic alerts and blocks intrusion attempts before they cause damage.
 
-📊 Real‑World Use Case
+- The IT manager accesses executive reports to assess risks and make strategic decisions.
 
-A mid‑sized company with 200 employees installs NetGuard Pro to monitor corporate network traffic.
+## 📖 Documentation
 
-The system detects suspicious access spikes outside business hours.
+- User Guide: initial setup and daily use.
 
-The IT team receives automatic alerts and blocks intrusion attempts before they cause damage.
+- Technical Manual: architecture, APIs, and integrations.
 
-The IT manager accesses executive reports to assess risks and make strategic decisions.
+- FAQ: answers to common questions.
 
-📖 Documentation
+## 📌 Best Practices
 
-User Guide: initial setup and daily use.
+- Document changes.
 
-Technical Manual: architecture, APIs, and integrations.
+- Maintain consistent coding style.
 
-FAQ: answers to common questions.
+- Prioritize security and performance.
 
-📌 Best Practices
+- Test before submitting contributions.
 
-Document changes.
-
-Maintain consistent coding style.
-
-Prioritize security and performance.
-
-Test before submitting contributions.
-
-📜 License
+## 📜 License
 
 Distributed under the MIT License, allowing free use, modification, and distribution, provided original credits are retained.
