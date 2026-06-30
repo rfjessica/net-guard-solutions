@@ -1,91 +1,84 @@
-NetGuard Pro
+# NetGuard Pro
 
-🚀 Visión General
+## 🚀 Visión General
 NetGuard Pro es una solución avanzada para la supervisión y protección de redes corporativas. Ofrece alto rendimiento y facilidad de uso, atendiendo tanto a usuarios nuevos como a equipos técnicos especializados.
 
 Este documento guía a:
 
-Usuarios Nuevos: instrucciones simples y claras para la instalación y el uso rápido de las funciones principales.
+- Usuarios Nuevos: instrucciones simples y claras para la instalación y el uso rápido de las funciones principales.
 
-Desarrolladores: detalles técnicos sobre la estructura del proyecto y pautas de contribución.
+- Desarrolladores: detalles técnicos sobre la estructura del proyecto y pautas de contribución.
 
-Colaboradores: orientaciones sobre cómo participar de manera organizada, siguiendo estándares de codificación y procesos de envío.
+- Colaboradores: orientaciones sobre cómo participar de manera organizada, siguiendo estándares de codificación y procesos de envío.
 
-🎯 Funcionalidades Clave
-Supervisión en tiempo real del tráfico y eventos críticos.
+## 🎯 Funcionalidades Clave
+- Supervisión en tiempo real del tráfico y eventos críticos.
 
-Alertas inteligentes y configurables para incidentes.
+- Alertas inteligentes y configurables para incidentes.
 
-Panel interactivo y personalizable.
+- Panel interactivo y personalizable.
 
-Escalabilidad para infraestructuras de cualquier tamaño.
+- Escalabilidad para infraestructuras de cualquier tamaño.
 
-Integración con sistemas de tickets, SIEM y herramientas de automatización.
+- Integración con sistemas de tickets, SIEM y herramientas de automatización.
 
-⚙️ Instalación Rápida (Usuarios Nuevos)
-Clona el repositorio:
+## ⚙️ Instalación Rápida (Usuarios Nuevos)
+- Clona el repositorio:
+<pre>git clone https://github.com/empresa/netguard-pro.git</pre>
 
-bash
-git clone https://github.com/empresa/netguard-pro.git
+- Instala las dependencias:
+<pre>npm install</pre>
 
-Instala las dependencias:
+- Configura el archivo .env con tus credenciales y parámetros de red.
 
-bash
-npm install
-Configura el archivo .env con tus credenciales y parámetros de red.
+- Inicia el sistema:
+<pre>npm run start</pre>
 
-Inicia el sistema:
+- En pocos minutos, NetGuard Pro estará activo y listo para supervisar tu red.
 
-bash
-npm run start
+## 🛠️ Estructura Técnica (Desarrolladores)
+- Arquitectura modular: cada componente es independiente y extensible.
 
-En pocos minutos, NetGuard Pro estará activo y listo para supervisar tu red.
+- APIs documentadas: endpoints REST para integración con otros sistemas.
 
-🛠️ Estructura Técnica (Desarrolladores)
-Arquitectura modular: cada componente es independiente y extensible.
+- Pruebas automatizadas: garantizan calidad y confiabilidad.
 
-APIs documentadas: endpoints REST para integración con otros sistemas.
+- Guías de codificación: sigue el estándar ESLint y mantén la consistencia.
 
-Pruebas automatizadas: garantizan calidad y confiabilidad.
+## 🤝 Contribución (Colaboradores)
+- Haz un fork del repositorio.
 
-Guías de codificación: sigue el estándar ESLint y mantén la consistencia.
+- Crea una rama para tu funcionalidad o corrección:
+<pre>git checkout -b mi-feature</pre>
 
-🤝 Contribución (Colaboradores)
-Haz un fork del repositorio.
+- Documenta tus cambios y envía un pull request.
 
-Crea una rama para tu funcionalidad o corrección:
+- Todas las contribuciones pasan por revisión de código y pruebas automatizadas para asegurar una integración fluida.
 
-bash
-git checkout -b mi-feature
+## 📊 Caso de Uso Real
+- Una empresa mediana con 200 empleados instala NetGuard Pro para supervisar el tráfico de la red corporativa.
 
-Documenta tus cambios y envía un pull request.
+- El sistema detecta picos de acceso sospechosos fuera del horario laboral.
 
-Todas las contribuciones pasan por revisión de código y pruebas automatizadas para asegurar una integración fluida.
+- El equipo de TI recibe alertas automáticas y bloquea intentos de intrusión antes de que causen daños.
 
-📊 Caso de Uso Real
-Una empresa mediana con 200 empleados instala NetGuard Pro para supervisar el tráfico de la red corporativa.
+- El gerente de TI accede a informes ejecutivos para evaluar riesgos y tomar decisiones estratégicas.
 
-El sistema detecta picos de acceso sospechosos fuera del horario laboral.
+## 📖 Documentación
+- Guía del Usuario: configuración inicial y uso diario.
 
-El equipo de TI recibe alertas automáticas y bloquea intentos de intrusión antes de que causen daños.
+- Manual Técnico: arquitectura, APIs e integraciones.
 
-El gerente de TI accede a informes ejecutivos para evaluar riesgos y tomar decisiones estratégicas.
+- FAQ: respuestas a preguntas frecuentes.
 
-📖 Documentación
-Guía del Usuario: configuración inicial y uso diario.
+## 📌 Buenas Prácticas
+- Documenta los cambios.
 
-Manual Técnico: arquitectura, APIs e integraciones.
+- Mantén la consistencia en el estilo de código.
 
-FAQ: respuestas a preguntas frecuentes.
+- Prioriza seguridad y rendimiento.
 
-📌 Buenas Prácticas
-Documenta los cambios.
+- Realiza pruebas antes de enviar contribuciones.
 
-Mantén la consistencia en el estilo de código.
-
-Prioriza seguridad y rendimiento.
-
-Realiza pruebas antes de enviar contribuciones.
-
-📜 Licencia
+## 📜 Licencia
 Distribuido bajo la licencia MIT, que permite uso, modificación y distribución libre, siempre que se mantengan los créditos originales.
